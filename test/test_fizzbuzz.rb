@@ -15,7 +15,11 @@ class TestFizzBuzz < Test::Unit::TestCase
   end
 
   def test_fizzbuzz_fizz
-    assert_equal("Fizz", @fizzbuzz.convert(3), "1に変換されました")
+    assert_equal("Fizz", @fizzbuzz.convert(3), "3に変換されました")
+  end
+
+  def test_fizzbuzz_buzz
+    assert_equal("Buzz", @fizzbuzz.convert(5), "1に変換されました")
   end
 
   def teardown
