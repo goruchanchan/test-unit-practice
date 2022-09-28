@@ -11,15 +11,15 @@ class TestFizzBuzz < Test::Unit::TestCase
   end
 
   def test_fizzbuzz_number
-    assert_equal("1", @fizzbuzz.convert(1), "1に変換されました")
+    assert_equal("1", @fizzbuzz.convert(1), "数値は文字列に変換される")
   end
 
   def test_fizzbuzz_fizz
-    assert_equal("Fizz", @fizzbuzz.convert(3), "3に変換されました")
+    assert_equal("Fizz", @fizzbuzz.convert(3), "3の倍数はFizzに変換される")
   end
 
   def test_fizzbuzz_buzz
-    assert_equal("Buzz", @fizzbuzz.convert(5), "1に変換されました")
+    assert_equal("Buzz", @fizzbuzz.convert(5), "5の倍数は変換される")
   end
 
   def teardown
