@@ -19,7 +19,7 @@ class TestFizzBuzz < Test::Unit::TestCase
   end
 
   def test_fizzbuzz_buzz
-    assert_equal("Buzz", @fizzbuzz.convert(5), "5の倍数は変換される")
+    assert_equal("Buzz", @fizzbuzz.convert(5), "5の倍数はBuzzに変換される")
   end
 
   def teardown
