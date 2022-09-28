@@ -14,6 +14,10 @@ class TestFizzBuzz < Test::Unit::TestCase
     assert_equal("1", @fizzbuzz.convert(1), "1に変換されました")
   end
 
+  def test_fizzbuzz_fizz
+    assert_equal("Fizz", @fizzbuzz.convert(3), "1に変換されました")
+  end
+
   def teardown
     @fizzbuzz = nil
   end

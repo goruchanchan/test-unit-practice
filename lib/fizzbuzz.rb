@@ -4,6 +4,9 @@
 
 class FizzBuzz
   def convert(number)
+    if number % 3 == 0
+      return "Fizz"
+    end
     return number.to_s
   end
 end
