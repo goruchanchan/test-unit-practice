@@ -1,4 +1,3 @@
-!!!ruby
 require 'test_helper'
 
 module Sub
