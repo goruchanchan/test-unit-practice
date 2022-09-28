@@ -4,6 +4,6 @@
 
 class FizzBuzz
   def convert(number)
-    false
+    return number.to_s
   end
 end

@@ -10,11 +10,11 @@ class TestFizzBuzz < Test::Unit::TestCase
     @fizzbuzz = FizzBuzz.new()
   end
 
-  def test_fizzbuzz
+  def test_fizzbuzz_number
     assert_equal("1", @fizzbuzz.convert(1), "1に変換されました")
   end
 
   def teardown
-    @adder = nil
+    @fizzbuzz = nil
   end
 end
